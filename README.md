@@ -57,7 +57,7 @@
 <div>
 <p>
   <a>
-    <img align="left" src="assets/push_swap.webp" alt="push_swap illustration">
+    <img src="assets/push_swap.webp" alt="push_swap illustration">
   </a>
   </p>
 </div>
