@@ -47,19 +47,17 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 <div>
 <p>
   <a>
-    <img align="left" src="https://media.discordapp.net/attachments/453159761639112706/998937536221171824/unknown.png" alt="push_swap header">
+    <img align="left" src="assets/push_swap.webp" alt="push_swap illustration">
   </a>
   </p>
 </div>
@@ -68,13 +66,13 @@ This project is a very simple and highly effective algorithm project: data will
 need to be sorted. </br>
 We have at our disposal, 2 stacks (`a` and `b`), a set of int values without duplicates that will be initialized in the stack `a`, and a set of instructions to manipulate both stacks :
 
-- `ra` / `rb` rotates either `a` or `b`
-- `rra` / `rrb` rotates either `a` or `b` but in the other direction
-- `rr` / `rrr` rotates both `a` and `b` in one direction or the other
-- `pa` pushes the top element of `b` to `a`
-- `pb` pushes the top element of `a` to `b`
-- `sa` / `sb` switches the two top elements of `a` / `b`
-- `ss` switches the two top elements of both `a` and `b`
+-   `ra` / `rb` rotates either `a` or `b`
+-   `rra` / `rrb` rotates either `a` or `b` but in the other direction
+-   `rr` / `rrr` rotates both `a` and `b` in one direction or the other
+-   `pa` pushes the top element of `b` to `a`
+-   `pb` pushes the top element of `a` to `b`
+-   `sa` / `sb` switches the two top elements of `a` / `b`
+-   `ss` switches the two top elements of both `a` and `b`
 
 The program should then print in the terminal all the instructions to sort the int values into the stack `a`, by using the stack `b`
 
@@ -89,10 +87,10 @@ Once all the instructions have been read, the checker will execute them on the s
 
 We can call the push_swap program then pipe `|` the checker with the same arguments to verify if our push_swap works as intended
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 Because it's a simple C program, there isn't much to say here
@@ -104,32 +102,32 @@ Having a C compiler like cc, gcc or clang
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/Link-Wolf/push_swap.git
-   ```
+    ```sh
+    git clone https://github.com/Link-Wolf/push_swap.git
+    ```
 2. Compile push_swap
-   ```sh
-   cd push_swap; make
-   ```
+    ```sh
+    cd push_swap; make
+    ```
 3. Execute the program with a list of integers as a parameter / multiples parameters
-   ```sh
-   ./push_swap "5 648 1 36 -1 98 -364 0"
-   ```
-   or
-   ```sh
-   ./push_swap 5 648 1 36 -1 98 -364 0
-   ```
+    ```sh
+    ./push_swap "5 648 1 36 -1 98 -364 0"
+    ```
+    or
+    ```sh
+    ./push_swap 5 648 1 36 -1 98 -364 0
+    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 Test this push_swap with the integers you want, and with as many you want !
 
 #### Push swap program
+
 ```sh
    ./push_swap "5 1 -1 -3 0"
 ```
@@ -157,25 +155,24 @@ Test this push_swap with the integers you want, and with as many you want !
 ```
 	OK
 ```
-*The checker will print `Error` if one of the given instructions does not exist*
+
+_The checker will print `Error` if one of the given instructions does not exist_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
-- [x] Add the checker
-- [x] Add back to top links
+-   [x] Add the checker
+-   [x] Add back to top links
 
 See the [open issues](https://github.com/Link-Wolf/push_swap/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -186,14 +183,5 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTACT -->
-## Contact
-
-Mail : xxxxxxx@student.42mulhouse.fr
-
-Project Link: [https://github.com/Link-Wolf/push_swap](https://github.com/Link-Wolf/push_swap)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
